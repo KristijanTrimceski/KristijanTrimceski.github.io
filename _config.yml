@@ -1,0 +1,90 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+# Title of the Site
+title: Моето прво портфолио
+# Description of the Site
+description:  Кристијан Тримчески
+# URL of Image of the Site
+site-image: /WhatATheme/assets/images/meta.jpg
+# Keywords of the Site
+site-keywords: Site, Template, Theme
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: kikotrimceski1@gmail.com
+facebook_username: Kristijan Trimceski
+instagram_username: _trimceski_
+linkedin_username: Kristijan Trimceski
+github_username:  kristijantrimceski
+# Google Analytics
+google-analytics: UA-163806439-1
+
+# Disqus
+disqus-shortname: thedevslot
+
+# Name of the Author
+author-name: Кристијан Тримчески
+# URL for the Image of the Author
+author-image: slika1.jpg
+# 60 Words About the Author
+author-about: Роден во 2004 година во Гостивар. Завршил основно образование во ООУ „Гоце Делчев“ со одличен успех. Средното образование го завршил во СОУ „Гимназија Гостивар“  Природно Математички А смер. Двете образованија ги завршил со одличен успех. Се запишал на Факултетот за Информатички Науки и Компјутерско Инженерство во 2023 година на насоката Софтверско инженерство и информациски системи. Негови интереси вклучуваат програмирање и дизајн на видео игри, кибернетика и виртуелна реалност. 
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/KristijanTrimceski
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
